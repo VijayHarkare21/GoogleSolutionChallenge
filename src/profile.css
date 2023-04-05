@@ -1,0 +1,158 @@
+/* CSS for profile page */
+.profile-container {
+    display: flex;
+    height: calc(100vh - 60px);
+    }
+    
+    .sidebar {
+    background-color: #5b4636;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    }
+    
+    .sidebar button {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    }
+    
+    .sidebar button.active {
+    background-color: white;
+    color: #5b4636;
+    }
+    
+    .profile-content {
+    width: calc(100% - 250px);
+    padding: 20px;
+    /* display: flex;
+    flex-direction: row; */
+    }
+    
+    .profile-personal {
+    display: flex;
+    flex-direction: row;
+    }
+
+    .personal-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    }
+    
+    .personal-info .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    }
+    
+    .personal-info label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+    
+    .personal-info input {
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #5b4636;
+    margin-bottom: 10px;
+    width: 100%;
+    }
+    
+    .personal-info button {
+    background-color: #5b4636;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    align-self: center;
+    }
+    
+    .contributions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .contribution-tile {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    }
+    
+    .contribution-tile:last-child {
+    margin-bottom: 0;
+    }
+    
+    .contribution-image {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    }
+    
+    .contribution-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    }
+    
+    .contribution-details {
+    padding: 20px;
+    }
+    
+    .contribution-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+
+    /* .profile-content {
+        display: flex;
+        flex-direction: row;
+      } */
+      
+      /* .personal-info {
+        flex: 1;
+      } */
+      
+      .profile-image {
+        width: 300px;
+        padding-left: 50px;
+        padding-right: 20px;
+        border: 0px solid #ccc;
+        text-align: center;
+      }
+      
+      .profile-image label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      
+      .profile-image img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 10px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+      }
+      
+      .fade-in {
+        opacity: 0;
+        transition: opacity 0.5s ease-in;
+      }
+      
+      .fade-in.active {
+        opacity: 1;
+      }

@@ -1,0 +1,134 @@
+/* Background Styles */
+body {
+    background-color: #d4c4a7;
+  }
+  
+  /* Post Tile Styles */
+  .post-tile {
+    background-color: #f6eee0;
+    border: 1px solid #a7997a;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc((100% - 60px) / 3);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .post-tile:hover {
+    background-color: #d4c4a7;
+  }
+  
+  .post-tile:hover .post-content {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .post-content {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Post Content Styles */
+  .post-content h2 {
+    margin-top: 0;
+  }
+  
+  .post-content p {
+    margin-bottom: 0;
+  }
+  
+  .post-content span {
+    font-weight: bold;
+  }
+  
+  .post-content button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #a7997a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .post-content button:hover {
+    background-color: #fff;
+    color: #a7997a;
+  }
+  
+  .post-content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Profile Picture Styles */
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Button Styles */
+  .button {
+    display: inline-block;
+    background-color: #a7997a;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #a7997a;
+  }
+  
+  /* Clearfix */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 992px) {
+    .post-tile {
+      width: calc((100% - 40px) / 2);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .post-tile {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  

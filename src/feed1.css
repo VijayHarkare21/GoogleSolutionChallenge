@@ -1,0 +1,93 @@
+/* Feed.css */
+
+/* Main container for the feed */
+.feed-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Container for each post */
+  .post-container {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Header section of the post */
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Avatar image of the user who posted */
+  .post-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Name of the user who posted */
+  .post-user-name {
+    font-weight: bold;
+  }
+  
+  /* Timestamp of the post */
+  .post-timestamp {
+    margin-left: auto;
+    font-size: 12px;
+  }
+  
+  /* Content section of the post */
+  .post-content {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer section of the post */
+  .post-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Button to like the post */
+  .post-like-btn {
+    color: #8a8a8a;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Button to comment on the post */
+  .post-comment-btn {
+    color: #8a8a8a;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Button to share the post */
+  .post-share-btn {
+    color: #8a8a8a;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Link to the create post page */
+  .create-post-link {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .feed-container {
+      padding: 0 20px;
+    }
+  }
+  

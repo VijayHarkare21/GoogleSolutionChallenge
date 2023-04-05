@@ -1,0 +1,28 @@
+/* // footer.css */
+
+footer {
+  background-color: black;
+  color: white;
+  height: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.contact-info p {
+  margin: 10px;
+}
+
+.instagram-link a {
+  font-size: 24px;
+  color: white;
+  margin-left: 20px;
+}

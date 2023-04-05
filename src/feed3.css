@@ -1,0 +1,48 @@
+body {
+    background-color: #e3dbc7;
+  }
+  
+  .feed-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .post-tile {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .post-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-tile:hover h3 {
+    color: #5c5c5c;
+  }
+  
+  .post-tile:hover p {
+    color: #666666;
+  }
+  
+  .post-tile h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #292929;
+  }
+  
+  .post-tile p {
+    font-size: 16px;
+    color: #4a4a4a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
