@@ -73,7 +73,7 @@ const Feed = () => {
     // </div>
     // <Footer />
     // </div>
-    <div className={`fade-in ${active ? 'active' : ''}`}>
+    <div>
       <Navbar />
       <div className={`feed-container fade-in ${active ? 'active' : ''}`}>
         {posts && (
