@@ -1,4 +1,4 @@
-# GoogleSolutionChallenge
+# LiveLand - GDSC Google Solution Challenge
 
 ## Front-end
 
