@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/home">LifeOnLand</Link>
+        <Link to="/home">LiveLand</Link>
       </div>
       <div className={`navbar-links ${menuOpen ? 'active' : ''}`}>
         <Link to="/home" className={location.pathname === '/home' ? 'active' : ''}>Home</Link>
