@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath kjhack kjhack.wsgi
